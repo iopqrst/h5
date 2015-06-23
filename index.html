@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--<html lang="ch" manifest="/appcache/act/5076?_t=1409817786">-->
+<html lang="ch">
+	<head>
+		<title>穿越糖潮 划划划</title>
+		<meta charset="utf-8" />
+		<meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+		<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+		<meta HTTP-EQUIV="expires" CONTENT="0">
+		<meta name="keywords" content="穿越糖潮 划划划" />
+		<meta name="description" content="穿越糖潮 划划划 一个在微信疯玩、疯转、疯划的小游戏，邀请你也划划划" />
+		<meta name="apple-touch-fullscreen" content="yes" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+		<script src=js/app/offline.js></script>
+		<script type="text/javascript">
+			if (/Android (\d+\.\d+)/.test(navigator.userAgent)) {
+				var version = parseFloat(RegExp.$1);
+				if (version > 2.3) {
+					var phoneScale = parseInt(window.screen.width) / 640;
+					document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+				} else {
+					document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+				}
+			} else {
+				document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+			}
+			 //微信去掉下方刷新栏
+			 if (navigator.userAgent.indexOf('MicroMessenger') >= 0) {
+				document.addEventListener('WeixinJSBridgeReady', function() {
+					//WeixinJSBridge.call('hideToolbar');
+				});
+			}
+		</script>
+		<link rel="stylesheet" type="text/css" href="template/styles/reset.css" />
+		<link rel="stylesheet" type="text/css" href="template/styles/app.css" />
+		<link rel="stylesheet" type="text/css" href="template/styles/animation.css" />
+		<link rel="stylesheet" type="text/css" href="template/styles/units.css" />
+		<link rel="stylesheet" type="text/css" href="template/styles/modules.css" />
+		<link rel="stylesheet" type="text/css" href="template/styles/page.css" />
+		<link rel="stylesheet" type="text/css" href="template/scripts/lib/mobiscroll/css/mobiscroll.scroller.css" />
+		<link rel="stylesheet" type="text/css" href="template/scripts/lib/mobiscroll/css/mobiscroll.scroller.android-ics.css" />
+		<link rel="stylesheet" type="text/css" href="template/scripts/lib/mobiscroll/css/mobiscroll.animation.css" />
+	</head>
+
+	<body class="app" data-app-id="5076" data-ad="true">
+
+		<div id="app-loading" class="app-loading">
+			<div class="cycleWrap">
+				<span class="cycle cycle-1"></span>
+				<span class="cycle cycle-2"></span>
+				<span class="cycle cycle-3"></span>
+				<span class="cycle cycle-4"></span>
+			</div>
+			<div class="lineWrap">
+				<span class="line line-1"></span>
+				<span class="line line-2"></span>
+				<span class="line line-3"></span>
+			</div>
+		</div>
+
+		<header class="app-header">
+			<a href="javascript:void(0);" class="u-globalAudio">
+				<i class="icon-music"></i>
+				<audio src="userfiles/info/bg-music.mp3" loop="loop"></audio>
+			</a>
+		</header>
+
+		<section class="app-content">
+
+			<!--<div id="j-mengban" class="translate-front" data-open="1">
+				<div class="mengban-warn"></div>
+			</div>-->
+            
+			<section class="page page-index" data-plugin-type="info_front">
+				<section class="page-content">
+					<div class="m-animationBox m-animationCloudBg"></div>
+					<img class="m-foregroundImg" src="userfiles/info/img_001.png">
+				</section>
+			</section>
+			<section class="page page-panorama" data-plugin-type="info_profile" style="background-image: url(userfiles/info/img_002_01.jpg);">
+				<section class="page-content">
+					<div class="m-panorama z-right">
+						<img class="teletextImg" src="userfiles/info/img_002_02.png" />
+					</div>
+				</section>
+			</section>
+
+			<section class="page page-panorama" data-plugin-type="info_profile" style="background-image: url(userfiles/info/img_003_01.jpg);">
+				<section class="page-content">
+					<div class="m-panorama z-left">
+						<img class="teletextImg" src="userfiles/info/img_003_02.png" />
+					</div>
+				</section>
+			</section>
+
+			<section class="page page-panorama" data-plugin-type="info_profile" style="background-image: url(userfiles/info/img_004_01.jpg);">
+				<section class="page-content">
+					<div class="m-panorama z-right z-top">
+						<img class="teletextImg" src="userfiles/info/img_004_02.png" />
+					</div>
+				</section>
+			</section>
+
+			<section class="page page-panorama" data-plugin-type="info_profile" style="background-image: url(userfiles/info/img_005_01.jpg);">
+				<section class="page-content">
+					<div class="m-panorama z-left">
+						<img class="teletextImg" src="userfiles/info/img_005_02.png" />
+					</div>
+				</section>
+			</section>
+
+			<section class="page page-panorama" data-plugin-type="info_profile" style="background-image: url(userfiles/info/img_006_01.jpg);">
+				<section class="page-content">
+					<div class="m-panorama z-center">
+						<img class="teletextImg" src="userfiles/info/img_006_02.png" />
+					</div>
+				</section>
+			</section>
+
+			<section class="page page-panorama" data-plugin-type="info_profile" style="background-image: url(userfiles/info/img_007_01.jpg);">
+				<section class="page-content">
+					<div class="m-panorama z-left">
+						<img class="teletextImg" src="userfiles/info/img_007_02.png" />
+					</div>
+				</section>
+			</section>
+
+			<section class="page page-panorama page-form" data-plugin-type="store_contact" style="background-image: url(userfiles/info/img_008_01.jpg);">
+				<section class="page-content">
+					<div class="m-panorama z-left">
+						<img class="teletextImg" src="userfiles/info/img_008_02.png" />
+					</div>
+					
+					<div class="m-contactUs m-link">
+						<a href="javascript:void(0);" class="textLink used" style='background:#6abe37'>免费申请试用</a>
+						
+						<div style="margin-top:30px;">
+							<a href="javascript:void(0);" class="download" style="float:left; padding-left: 40px;">
+								<img src="userfiles/info/download_a.png" />
+							</a>
+							
+							<a href="javascript:void(0);" class="download" style="">
+								<img src="userfiles/info/download_i.png" />
+							</a>
+						</div>
+					</div>
+					
+					
+					<div class="u-maskLayer m-contactFormLayer z-hide">
+						<div>
+							<div class="m-contactForm">
+								<h2><span>血糖高管申请试用</span></h2>
+								<form action="http://www.bskcare.com/index.php/Api/weixin_add_uname" method="post" id="formContact">
+									<dl>
+										<dt class="icon-name">姓名:</dt>
+										<dd>
+											<input type="text" name="username" required="required" placeholder="申请人姓名">
+										</dd>
+									</dl>
+									<dl>
+										<dt class="icon-tel">电话:</dt>
+										<dd>
+											<input type="tel" name="mobile" required="required" placeholder="电话">
+										</dd>
+									</dl>
+									<input type="button" class="btn-submit" value="提交" style='background:#6abe37'>
+									<input type="hidden" value="提交失败" data-fail-msg>
+								</form>
+								<div class="u-maskLayer successTipLayer z-hide">
+									<p>提交成功</p>
+								</div>
+								<div class="u-maskLayer failedTipLayer z-hide">
+									<p></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</section>
+			
+		</section>
+
+		<footer class="app-footer">
+			<input type="hidden" value="/bsk_wx/userfiles/info/share.jpg" data-share-pic>
+			<input id="r-cover" type="hidden" value="userfiles/info/img_010_01.jpg">
+			<input id="ca-tips" type="hidden" value="手指擦一擦">
+		</footer>
+
+		<script type="text/javascript" src="template/scripts/sea.js"></script>
+		<script type="text/javascript">
+			var assetsVersion = 'v1.0914004';
+			seajs.config({
+				base : '/bsk_wx/template/scripts/',//开发环境
+				//preload : ['app.min.js'],			//生产环境
+				map: [
+					[/^(.*\.(?:css|js))(.*)$/i, '$1?ver=' + assetsVersion]
+				],
+				debug: true
+			});
+			seajs.use('page/main');
+		</script>
+	</body>
+
+</html>
