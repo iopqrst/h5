@@ -60,7 +60,7 @@ define(function(require, exports, module) {
 					});
 
 					$page.delegate('.m-contactUs .download', $.isPC ? 'click' : 'tap', function(e) {
-						location.href = "http://www.bskcare.com/soft/sugar/index.php";
+						location.href = "http://www.baidu.com";
 					});
 
 					//点击联系我们时显示遮表单罩层
